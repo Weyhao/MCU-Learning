@@ -1,0 +1,30 @@
+# 忽略 Windows 可执行文件
+*.exe
+*.dll
+
+# 忽略 Linux/Mac 可执行文件
+*.out
+*.o
+*.so
+
+# 忽略编译临时文件
+*.obj
+*.elf
+*.map
+*.hex
+*.bin
+
+# 忽略 Keil/IAR/S32 Design Studio 等生成的目录
+build/
+Debug/
+Release/
+out/
+
+# 忽略 VS Code 临时文件
+.vscode/
+*.log
+
+# 忽略临时和备份文件
+*~
+*.tmp
+*.bak
